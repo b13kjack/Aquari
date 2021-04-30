@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2021-04-29
+ *Submitted for verification at BscScan.com on 2021-04-30
 */
 
 /**
@@ -838,7 +838,7 @@ contract AQUARI is Context, IERC20, Ownable {
     bool public swapAndLiquifyEnabled = true;
     
     uint256 public _maxTxAmount = 1000 * 10**6 * 10**9;
-    uint256 private numTokensSellToAddToLiquidity = 2000 * 10**6 * 10**9;
+    uint256 private numTokensSellToAddToLiquidity = 1000 * 10**6 * 10**9;
     
     event MinTokensBeforeSwapUpdated(uint256 minTokensBeforeSwap);
     event SwapAndLiquifyEnabledUpdated(bool enabled);
