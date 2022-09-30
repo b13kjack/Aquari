@@ -1,1 +1,2 @@
-# Aquari
+# Aquari Smart Contract V1
+
